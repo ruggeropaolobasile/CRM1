@@ -14,7 +14,7 @@ namespace CRM1.Models
         public string? PhoneNumber { get; set; }
         // altre proprietà necessarie
 
-        [Range(1, 5)]
+        //[Range(1, 5)]
         public int Rating { get; set; }
     }
 }
